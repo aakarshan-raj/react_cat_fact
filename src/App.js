@@ -7,7 +7,7 @@ function App() {
 
   const[excuse,setExuse] = useState("");
 
-  const GetExuse = () =>{
+  const GetFact = () =>{
     
       fetch(`https://catfact.ninja/fact/`)
       .then((data)=> {return data.json()})
@@ -25,7 +25,7 @@ function App() {
      <h3>{excuse}</h3>
    
 </div>
-<button onClick={()=>{GetExuse("family")}}>Cat Fact</button>
+<button onClick={GetFact}>Cat Fact</button>
 
     </div>
    );
