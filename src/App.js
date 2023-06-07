@@ -20,7 +20,7 @@ function App() {
    return(
     <div className='App'>
       <div className='content'>
-     <h1>Get a Fact about Daru</h1>
+     <h1>Get a Cat Fact</h1>
 
      <h3>{excuse}</h3>
    
